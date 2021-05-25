@@ -1,0 +1,49 @@
+<!-- <?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "mentor_project";
+
+    $conn = mysqli_connect($servername, $username, $password, $database,3325);
+
+    if(!$conn){
+        die("CAN NOT CONNECT ERROR : " . mysqli_connect_error()) ;
+    }
+        // echo "Connected";
+
+        
+?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEARCH HERE!</title>
+    <link rel="stylesheet" href="one.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="search" placeholder="Type to search..">
+            <div class="autocom-box">
+                <!-- here list are inserted from javascript -->
+            </div>
+            <div class="icon">
+                <button class="fas fa-search">Search</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+    <script src="suggestions.js"></script>
+
+</body>
+
+</html>
