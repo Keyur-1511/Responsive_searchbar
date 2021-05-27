@@ -1,8 +1,8 @@
 <?php
 
-include_once("index.html");
-include("suggestions.js");
-include("main.js");
+include_once("/Responsive_searchbar/index.html");
+include_once("/Responsive_searchbar/suggestions.js");
+include_once("/Responsive_searchbar/main.js");
 
 
 ?>
